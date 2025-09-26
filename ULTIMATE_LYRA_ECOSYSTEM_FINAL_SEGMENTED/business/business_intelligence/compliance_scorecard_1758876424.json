@@ -1,0 +1,98 @@
+{
+  "scorecard_date": "2025-09-26T08:47:04.575997",
+  "overall_score": 90.5,
+  "compliance_areas": {
+    "ato_compliance": {
+      "score": 95,
+      "max_score": 100,
+      "status": "compliant",
+      "items": [
+        {
+          "item": "BAS lodgement",
+          "status": "current"
+        },
+        {
+          "item": "Income tax return",
+          "status": "current"
+        },
+        {
+          "item": "PAYG compliance",
+          "status": "current"
+        },
+        {
+          "item": "Record keeping",
+          "status": "excellent"
+        }
+      ]
+    },
+    "asic_compliance": {
+      "score": 90,
+      "max_score": 100,
+      "status": "compliant",
+      "items": [
+        {
+          "item": "Financial services license",
+          "status": "not_required"
+        },
+        {
+          "item": "Market integrity rules",
+          "status": "compliant"
+        },
+        {
+          "item": "Reporting obligations",
+          "status": "current"
+        },
+        {
+          "item": "Client money handling",
+          "status": "not_applicable"
+        }
+      ]
+    },
+    "aml_ctf_compliance": {
+      "score": 85,
+      "max_score": 100,
+      "status": "compliant",
+      "items": [
+        {
+          "item": "Customer identification",
+          "status": "compliant"
+        },
+        {
+          "item": "Transaction monitoring",
+          "status": "automated"
+        },
+        {
+          "item": "Suspicious matter reporting",
+          "status": "procedures_in_place"
+        },
+        {
+          "item": "Record keeping",
+          "status": "compliant"
+        }
+      ]
+    },
+    "data_protection": {
+      "score": 92,
+      "max_score": 100,
+      "status": "compliant",
+      "items": [
+        {
+          "item": "Privacy policy",
+          "status": "current"
+        },
+        {
+          "item": "Data security",
+          "status": "excellent"
+        },
+        {
+          "item": "Breach notification",
+          "status": "procedures_in_place"
+        },
+        {
+          "item": "Data retention",
+          "status": "compliant"
+        }
+      ]
+    }
+  }
+}

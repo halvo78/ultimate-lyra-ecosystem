@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-26T08:18:56.156575",
+  "confidence_level": 0.95,
+  "time_horizon_days": 1,
+  "portfolio_value": 10000,
+  "var_percentage": -0.032638202122322026,
+  "var_dollar": 326.38202122322025,
+  "expected_shortfall_percentage": -0.0421529721605958,
+  "expected_shortfall_dollar": 421.529721605958,
+  "risk_level": "medium",
+  "positions_analyzed": 1
+}

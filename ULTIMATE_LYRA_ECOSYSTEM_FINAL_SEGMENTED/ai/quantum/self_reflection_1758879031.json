@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-26T09:30:31.948041",
+  "system_state": {
+    "is_running": true,
+    "active_strategies": 6,
+    "connected_exchanges": 10,
+    "loaded_ai_models": 19,
+    "system_health": {
+      "database": true,
+      "api_connections": true,
+      "trading_engine": true,
+      "ai_models": true,
+      "system_resources": true
+    },
+    "timestamp": "2025-09-26T09:30:31.948015"
+  },
+  "performance_metrics": {
+    "total_trades": 1500,
+    "win_rate": 0.78,
+    "avg_profit": 0.025,
+    "sharpe_ratio": 2.1,
+    "max_drawdown": 0.05,
+    "system_uptime": 0.999,
+    "api_success_rate": 0.995,
+    "avg_execution_time": 150
+  },
+  "assumptions_checked": [],
+  "improvement_suggestions": [],
+  "confidence_in_decisions": {
+    "overall_confidence": 0.7,
+    "confidence_factors": [
+      "High win rate indicates good decision quality"
+    ]
+  },
+  "learning_opportunities": [
+    {
+      "opportunity": "Expand data sources",
+      "description": "Integrate additional market data sources for better predictions",
+      "potential_impact": "medium"
+    },
+    {
+      "opportunity": "Implement ensemble methods",
+      "description": "Combine multiple models for more robust predictions",
+      "potential_impact": "high"
+    },
+    {
+      "opportunity": "Real-time parameter adjustment",
+      "description": "Dynamically adjust strategy parameters based on market conditions",
+      "potential_impact": "high"
+    }
+  ]
+}

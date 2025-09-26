@@ -1,0 +1,22 @@
+{
+  "transaction_id": "test_tax_trade",
+  "date": "2025-09-26T08:21:16.043995",
+  "type": "TRADING",
+  "symbol": "BTC/USDT",
+  "side": "buy",
+  "quantity": 0.1,
+  "price_aud": 67500.0,
+  "total_value_aud": 6750.0,
+  "fees_aud": 15.0,
+  "exchange": null,
+  "gst_applicable": false,
+  "income_type": "COST_BASE",
+  "holding_period_days": 0,
+  "cgt_event": false,
+  "metadata": {
+    "original_currency": "USD",
+    "original_price": 45000,
+    "exchange_rate_used": 1.5,
+    "tax_year": "2025-2026"
+  }
+}

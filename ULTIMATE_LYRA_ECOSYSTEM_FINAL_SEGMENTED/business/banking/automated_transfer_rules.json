@@ -1,0 +1,37 @@
+{
+  "profit_allocation": {
+    "trigger": "daily_profit_calculation",
+    "source_account": "operating_account",
+    "allocations": [
+      {
+        "destination": "settlement_account",
+        "percentage": 0.7,
+        "purpose": "Profit accumulation"
+      },
+      {
+        "destination": "tax_provision_account",
+        "percentage": 0.25,
+        "purpose": "Tax provision"
+      },
+      {
+        "destination": "operating_account",
+        "percentage": 0.05,
+        "purpose": "Operating buffer"
+      }
+    ]
+  },
+  "monthly_tax_provision": {
+    "trigger": "monthly",
+    "source_account": "settlement_account",
+    "destination_account": "tax_provision_account",
+    "amount_calculation": "estimated_monthly_tax_liability",
+    "purpose": "Monthly tax provision"
+  },
+  "quarterly_tax_payment": {
+    "trigger": "quarterly_bas_due",
+    "source_account": "tax_provision_account",
+    "destination": "ato_payment_system",
+    "amount_calculation": "actual_tax_liability",
+    "purpose": "Quarterly tax payment"
+  }
+}

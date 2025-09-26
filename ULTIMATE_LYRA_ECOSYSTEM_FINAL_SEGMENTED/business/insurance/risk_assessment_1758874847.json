@@ -1,0 +1,66 @@
+{
+  "assessment_date": "2025-09-26T08:20:47.553714",
+  "risk_categories": {
+    "cyber_risk": {
+      "risk_level": "high",
+      "factors": [
+        "High-value digital assets",
+        "Multiple exchange integrations",
+        "Automated trading systems",
+        "API key management"
+      ],
+      "potential_impact": "Severe - could halt operations",
+      "mitigation_measures": [
+        "Multi-factor authentication",
+        "Encrypted data storage",
+        "Regular security audits",
+        "Incident response plan"
+      ]
+    },
+    "trading_risk": {
+      "risk_level": "medium",
+      "factors": [
+        "Algorithmic trading",
+        "Market volatility",
+        "Exchange counterparty risk",
+        "Liquidity risk"
+      ],
+      "potential_impact": "Moderate - could cause significant losses",
+      "mitigation_measures": [
+        "Position size limits",
+        "Stop-loss mechanisms",
+        "Diversified exchange usage",
+        "Real-time monitoring"
+      ]
+    },
+    "operational_risk": {
+      "risk_level": "medium",
+      "factors": [
+        "System downtime",
+        "Human error",
+        "Regulatory changes",
+        "Key person dependency"
+      ],
+      "potential_impact": "Moderate - could disrupt operations",
+      "mitigation_measures": [
+        "Redundant systems",
+        "Documented procedures",
+        "Compliance monitoring",
+        "Cross-training"
+      ]
+    }
+  },
+  "insurance_adequacy": {
+    "total_coverage": 11000000,
+    "total_annual_premiums": 110000,
+    "coverage_to_premium_ratio": 100.0,
+    "adequacy_rating": "adequate",
+    "gaps_identified": []
+  },
+  "recommendations": [
+    "Review cyber liability coverage annually",
+    "Consider increasing trading loss coverage as AUM grows",
+    "Implement additional risk controls to reduce premiums",
+    "Regular policy reviews with insurance broker"
+  ]
+}

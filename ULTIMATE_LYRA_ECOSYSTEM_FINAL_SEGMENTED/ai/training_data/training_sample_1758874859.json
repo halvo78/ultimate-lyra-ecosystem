@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-09-26T08:20:59.593402",
+  "trade_results": {
+    "profit_loss": 100
+  },
+  "market_data": {
+    "price": 45000,
+    "volume": 1000
+  },
+  "features": {
+    "price": 45000,
+    "volume": 1000,
+    "rsi": 50,
+    "macd": 0,
+    "bollinger_position": 0.5,
+    "volatility": 0,
+    "trend_strength": 0,
+    "market_sentiment": 0.5
+  },
+  "target": 100
+}

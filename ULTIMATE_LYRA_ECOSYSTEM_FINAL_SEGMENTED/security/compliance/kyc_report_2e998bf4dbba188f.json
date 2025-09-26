@@ -1,0 +1,16 @@
+{
+  "report_id": "2e998bf4dbba188f",
+  "generated_at": "2025-09-26T09:47:04.488727",
+  "entity_type": "Lyra Trading Pty Ltd",
+  "jurisdiction": "Australia",
+  "compliance_frameworks": [
+    "ASIC Regulatory Guide 166",
+    "AML/CTF Act 2006",
+    "Corporations Act 2001"
+  ],
+  "kyc_status": "COMPLIANT",
+  "kyb_status": "COMPLIANT",
+  "risk_rating": "LOW",
+  "last_review": "2025-09-26T09:47:04.488747",
+  "next_review": "2026-09-26T09:47:04.488749"
+}

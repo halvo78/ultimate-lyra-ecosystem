@@ -1,0 +1,34 @@
+{
+  "report_date": "2025-09-26T09:47:04.489378",
+  "period": "monthly",
+  "financial_metrics": {
+    "total_revenue": 250000,
+    "net_profit": 200000,
+    "profit_margin": 0.8,
+    "return_on_equity": 0.45,
+    "cash_position": 500000,
+    "assets_under_management": 1000000
+  },
+  "operational_metrics": {
+    "total_trades": 1500,
+    "win_rate": 0.78,
+    "average_trade_size": 2500,
+    "system_uptime": 0.999,
+    "api_success_rate": 0.995,
+    "average_execution_time": 150
+  },
+  "risk_metrics": {
+    "portfolio_var_95": 25000,
+    "max_drawdown": 0.05,
+    "sharpe_ratio": 2.1,
+    "correlation_risk": "low",
+    "concentration_risk": "medium"
+  },
+  "growth_metrics": {
+    "revenue_growth_mom": 0.15,
+    "profit_growth_mom": 0.18,
+    "aum_growth_mom": 0.12,
+    "trade_volume_growth": 0.2,
+    "efficiency_improvement": 0.08
+  }
+}

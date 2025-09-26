@@ -1,0 +1,24 @@
+{
+  "decision_id": "decision_1758874847",
+  "timestamp": "2025-09-26T08:20:47.547736",
+  "decision_type": "unknown",
+  "symbol": "BTC/USDT",
+  "action": "buy",
+  "confidence": 0.8,
+  "model_inputs": {
+    "rsi": 30,
+    "macd": 100
+  },
+  "model_outputs": {
+    "prediction": 0.8
+  },
+  "key_factors": [
+    "MACD bullish signal"
+  ],
+  "risk_assessment": {
+    "risk_level": "low",
+    "risk_score": 0,
+    "risk_factors": []
+  },
+  "explanation_text": "Decision to buy BTC/USDT with 80.0% confidence. RSI indicates oversold condition (30.0), suggesting potential upward movement. MACD shows bullish momentum. "
+}

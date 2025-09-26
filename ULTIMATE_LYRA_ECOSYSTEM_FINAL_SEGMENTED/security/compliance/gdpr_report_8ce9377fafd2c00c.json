@@ -1,0 +1,18 @@
+{
+  "report_id": "8ce9377fafd2c00c",
+  "generated_at": "2025-09-26T08:47:04.575731",
+  "data_controller": "Lyra Trading Pty Ltd",
+  "data_protection_officer": "System Administrator",
+  "lawful_basis": "Legitimate Interest (Trading Operations)",
+  "data_categories": [
+    "Trading data",
+    "API credentials (encrypted)",
+    "System logs",
+    "Performance metrics"
+  ],
+  "retention_policy": "7 years for trading records, 1 year for system logs",
+  "encryption_status": "AES-256 encryption for all sensitive data",
+  "access_controls": "Role-based access with audit trails",
+  "breach_procedures": "Automated detection and 72-hour reporting",
+  "compliance_status": "COMPLIANT"
+}

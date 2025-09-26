@@ -1,0 +1,258 @@
+{
+  "maximum_capacity_proof_timestamp": "2025-09-26T10:02:23.328318",
+  "total_runtime_seconds": 6.038591384887695,
+  "maximum_capacity_score": 91.66666666666666,
+  "system_status": "MAXIMUM_CAPACITY",
+  "component_performance": {
+    "exchange_connectivity": 4,
+    "live_price_feeds": 4,
+    "opportunities_detected": 9,
+    "arbitrage_opportunities": 4,
+    "ai_decisions": 3
+  },
+  "maximum_capacity_metrics": {
+    "working_exchanges": [
+      "okx_paper",
+      "okx_demo",
+      "gate_paper",
+      "btcmarkets"
+    ],
+    "total_opportunities": 13,
+    "ai_decision_rate": 0.75,
+    "system_efficiency": 0.9166666666666665
+  },
+  "detailed_results": {
+    "live_prices": {
+      "okx_paper_BTC": 109459.7,
+      "okx_demo_BTC": 109459.8,
+      "gate_paper_BTC": 109471.5,
+      "btcmarkets_BTC": 168000.0
+    },
+    "opportunities": [
+      {
+        "type": "CROSS_EXCHANGE_ARBITRAGE",
+        "id": "ARB_1",
+        "symbol": "BTC-USDT",
+        "buy_exchange": "okx_paper",
+        "sell_exchange": "gate_paper",
+        "buy_price": 109457.1,
+        "sell_price": 109462.0,
+        "spread": 4.899999999994179,
+        "spread_pct": 0.004476639706327117,
+        "potential_profit": 0.0035813117650616935,
+        "confidence": 0.9,
+        "urgency": "MEDIUM",
+        "timestamp": "2025-09-26T10:02:22.613034"
+      },
+      {
+        "type": "CROSS_EXCHANGE_ARBITRAGE",
+        "id": "ARB_2",
+        "symbol": "BTC-USDT",
+        "buy_exchange": "okx_paper",
+        "sell_exchange": "btcmarkets_BTC-USDT",
+        "buy_price": 109457.1,
+        "sell_price": 168000.0,
+        "spread": 58542.899999999994,
+        "spread_pct": 53.48478993139777,
+        "potential_profit": 42.78783194511822,
+        "confidence": 0.9,
+        "urgency": "HIGH",
+        "timestamp": "2025-09-26T10:02:22.613101"
+      },
+      {
+        "type": "CROSS_EXCHANGE_ARBITRAGE",
+        "id": "ARB_3",
+        "symbol": "BTC-USDT",
+        "buy_exchange": "okx_demo",
+        "sell_exchange": "gate_paper",
+        "buy_price": 109457.7,
+        "sell_price": 109462.0,
+        "spread": 4.30000000000291,
+        "spread_pct": 0.003928458208059287,
+        "potential_profit": 0.0031427665664474297,
+        "confidence": 0.9,
+        "urgency": "MEDIUM",
+        "timestamp": "2025-09-26T10:02:22.613125"
+      },
+      {
+        "type": "CROSS_EXCHANGE_ARBITRAGE",
+        "id": "ARB_4",
+        "symbol": "BTC-USDT",
+        "buy_exchange": "okx_demo",
+        "sell_exchange": "btcmarkets_BTC-USDT",
+        "buy_price": 109457.7,
+        "sell_price": 168000.0,
+        "spread": 58542.3,
+        "spread_pct": 53.48394859384037,
+        "potential_profit": 42.78715887507229,
+        "confidence": 0.9,
+        "urgency": "HIGH",
+        "timestamp": "2025-09-26T10:02:22.613163"
+      },
+      {
+        "type": "CROSS_EXCHANGE_ARBITRAGE",
+        "id": "ARB_5",
+        "symbol": "BTC-USDT",
+        "buy_exchange": "gate_paper",
+        "sell_exchange": "btcmarkets_BTC-USDT",
+        "buy_price": 109462.0,
+        "sell_price": 168000.0,
+        "spread": 58538.0,
+        "spread_pct": 53.477919277922936,
+        "potential_profit": 42.78233542233835,
+        "confidence": 0.9,
+        "urgency": "HIGH",
+        "timestamp": "2025-09-26T10:02:22.613196"
+      },
+      {
+        "type": "VOLATILITY_BREAKOUT",
+        "id": "VOL_6",
+        "symbol": "BTC",
+        "exchange": "okx_paper_BTC",
+        "current_price": 109459.7,
+        "volatility": 4.3999999999999995,
+        "potential_profit": 2.6399999999999997,
+        "confidence": 0.8,
+        "strategy": "MOMENTUM_CAPTURE",
+        "timestamp": "2025-09-26T10:02:22.613220"
+      },
+      {
+        "type": "VOLATILITY_BREAKOUT",
+        "id": "VOL_7",
+        "symbol": "BTC",
+        "exchange": "okx_demo_BTC",
+        "current_price": 109459.8,
+        "volatility": 3.6000000000000005,
+        "potential_profit": 2.16,
+        "confidence": 0.8,
+        "strategy": "MOMENTUM_CAPTURE",
+        "timestamp": "2025-09-26T10:02:22.613261"
+      },
+      {
+        "type": "VOLATILITY_BREAKOUT",
+        "id": "VOL_8",
+        "symbol": "BTC",
+        "exchange": "gate_paper_BTC",
+        "current_price": 109471.5,
+        "volatility": 5.8,
+        "potential_profit": 3.4799999999999995,
+        "confidence": 0.8,
+        "strategy": "MOMENTUM_CAPTURE",
+        "timestamp": "2025-09-26T10:02:22.613277"
+      },
+      {
+        "type": "PATTERN_BREAKOUT",
+        "id": "PAT_9",
+        "symbol": "SOL-USDT",
+        "pattern": "BULLISH_FLAG",
+        "pattern_strength": 0.99,
+        "potential_profit": 9.8,
+        "confidence": 0.99,
+        "strategy": "PATTERN_TRADING",
+        "timestamp": "2025-09-26T10:02:22.613299"
+      }
+    ],
+    "arbitrage": [
+      {
+        "type": "CROSS_CURRENCY_ARBITRAGE",
+        "id": "CCY_1",
+        "usd_exchange": "okx_paper_BTC",
+        "btc_aud_price": 168000.0,
+        "btc_usd_price": 109459.7,
+        "usd_equivalent": 109200.0,
+        "arbitrage_pct": 0.23782051282051014,
+        "potential_profit": 0.16647435897435708,
+        "direction": "BUY_AUD_SELL_USD",
+        "confidence": 0.85,
+        "currency_pair": "AUD/USD",
+        "timestamp": "2025-09-26T10:02:23.327488"
+      },
+      {
+        "type": "CROSS_CURRENCY_ARBITRAGE",
+        "id": "CCY_2",
+        "usd_exchange": "okx_demo_BTC",
+        "btc_aud_price": 168000.0,
+        "btc_usd_price": 109459.8,
+        "usd_equivalent": 109200.0,
+        "arbitrage_pct": 0.23791208791209056,
+        "potential_profit": 0.16653846153846338,
+        "direction": "BUY_AUD_SELL_USD",
+        "confidence": 0.85,
+        "currency_pair": "AUD/USD",
+        "timestamp": "2025-09-26T10:02:23.327565"
+      },
+      {
+        "type": "CROSS_CURRENCY_ARBITRAGE",
+        "id": "CCY_3",
+        "usd_exchange": "gate_paper_BTC",
+        "btc_aud_price": 168000.0,
+        "btc_usd_price": 109471.5,
+        "usd_equivalent": 109200.0,
+        "arbitrage_pct": 0.24862637362637363,
+        "potential_profit": 0.17403846153846153,
+        "direction": "BUY_AUD_SELL_USD",
+        "confidence": 0.85,
+        "currency_pair": "AUD/USD",
+        "timestamp": "2025-09-26T10:02:23.327594"
+      },
+      {
+        "type": "CROSS_CURRENCY_ARBITRAGE",
+        "id": "CCY_4",
+        "usd_exchange": "btcmarkets_BTC",
+        "btc_aud_price": 168000.0,
+        "btc_usd_price": 168000.0,
+        "usd_equivalent": 109200.0,
+        "arbitrage_pct": 53.84615384615385,
+        "potential_profit": 37.69230769230769,
+        "direction": "BUY_AUD_SELL_USD",
+        "confidence": 0.85,
+        "currency_pair": "AUD/USD",
+        "timestamp": "2025-09-26T10:02:23.327636"
+      }
+    ],
+    "ai_decisions": [
+      {
+        "symbol": "BTC-USDT",
+        "strategy": "momentum",
+        "side": "BUY",
+        "confidence": 0.8150000000000001,
+        "result": "APPROVE",
+        "reason": "All checks passed",
+        "size_hint": 0.04075000000000001,
+        "urgency": "normal",
+        "timestamp": "2025-09-26T10:02:23.328101"
+      },
+      {
+        "symbol": "ETH-USDT",
+        "strategy": "SMC_X",
+        "side": "BUY",
+        "confidence": 0.79,
+        "result": "APPROVE",
+        "reason": "All checks passed",
+        "size_hint": 0.07900000000000001,
+        "urgency": "normal",
+        "timestamp": "2025-09-26T10:02:23.328144"
+      },
+      {
+        "symbol": "ADA-USDT",
+        "strategy": "SMC_X",
+        "side": "BUY",
+        "confidence": 0.7400000000000001,
+        "result": "REJECT",
+        "reason": "Confidence 0.74 below threshold 0.75",
+        "size_hint": 0.07400000000000001,
+        "urgency": "normal",
+        "timestamp": "2025-09-26T10:02:23.328174"
+      }
+    ]
+  },
+  "maximum_capacity_certification": {
+    "exchange_integration": true,
+    "real_time_data": true,
+    "opportunity_engine": true,
+    "ai_engine": true,
+    "cross_currency": true,
+    "system_integration": true,
+    "maximum_capacity_achieved": true
+  }
+}

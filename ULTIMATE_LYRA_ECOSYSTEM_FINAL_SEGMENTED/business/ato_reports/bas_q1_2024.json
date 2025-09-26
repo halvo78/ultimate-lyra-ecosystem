@@ -1,0 +1,30 @@
+{
+  "quarter": 1,
+  "year": 2024,
+  "period_start": "2024-07-01",
+  "period_end": "2024-09-30",
+  "entity_details": {
+    "abn": "TBD - Lyra Trading Pty Ltd",
+    "entity_name": "Lyra Trading Pty Ltd",
+    "entity_type": "Company"
+  },
+  "gst_summary": {
+    "sales_subject_to_gst": 0,
+    "gst_on_sales": 0,
+    "purchases_subject_to_gst": 0,
+    "gst_on_purchases": 0,
+    "net_gst": 0
+  },
+  "income_summary": {
+    "trading_income": 0,
+    "other_income": 0,
+    "total_income": 0
+  },
+  "expense_summary": {
+    "trading_expenses": 0,
+    "operating_expenses": 0,
+    "total_expenses": 0
+  },
+  "payg_installment": 0,
+  "transactions_count": 0
+}

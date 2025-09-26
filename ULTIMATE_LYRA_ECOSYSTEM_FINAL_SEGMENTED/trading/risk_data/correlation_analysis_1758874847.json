@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-09-26T08:20:47.550088",
+  "symbols_analyzed": [
+    "BTC",
+    "ETH"
+  ],
+  "correlation_pairs": {
+    "BTC_ETH": 0.6713613679367255
+  },
+  "concentration_risk": {
+    "BTC": {
+      "weight": 0.6666666666666666,
+      "risk_level": "high"
+    },
+    "ETH": {
+      "weight": 0.3333333333333333,
+      "risk_level": "high"
+    }
+  },
+  "diversification_metrics": {
+    "herfindahl_index": 0.5555555555555556,
+    "diversification_score": 0.4444444444444444,
+    "effective_number_of_positions": 1.7999999999999998
+  }
+}
